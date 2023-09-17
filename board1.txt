@@ -5,4 +5,4 @@ ps  ps--  --psps--ps
 vb----pb--  fb--pb
 ----a  b---  -------
 pb  p  b---  -pbpb  pb--
-k  b  -----  -sb fb abkb
+k  b  ---  --  -sb fb abkb
