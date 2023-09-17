@@ -1,8 +1,8 @@
-ksasfsvsssfs--ks
-psps----psps--ps
-----ps----------
-------as----ps--
-vb----pb--fb--pb
-----ab----------
-pbpb----pbpbpb--
-kb------sbfbabkb
+ksa  sfs  vsssfs--ks
+ps  ps--  --psps--ps
+--  --ps---   -------
+--  ----as----ps--
+vb----pb--  fb--pb
+----a  b---  -------
+pb  p  b---  -pbpb  pb--
+k  b  -----  -sb fb abkb

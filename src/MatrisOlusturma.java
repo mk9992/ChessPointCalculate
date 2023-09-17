@@ -1,17 +1,15 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.FileWriter;
-import java.io.PrintWriter;
+import java.util.regex.Pattern;
 
 public class MatrisOlusturma {
 
-  public static char[][][] doldur(){
-
+    public static char[][][] doldur() {
         char[][][] matris = new char[8][8][2]; // 8x8x2 matris oluştur
 
         try {
-            FileReader dosyaOkuyucu = new FileReader("board3.txt");
+            FileReader dosyaOkuyucu = new FileReader("board1.txt");
             BufferedReader bufferedReader = new BufferedReader(dosyaOkuyucu);
 
             int satirNo = 0;
@@ -21,6 +19,9 @@ public class MatrisOlusturma {
                 if (satir == null) {
                     break; // Dosya sonuna geldik
                 }
+
+                // Satır içindeki boşlukları silme
+                satir = satir.replaceAll("\\s+", "");
 
                 for (int sutun = 0; sutun < 8 && sutun * 2 + 1 < satir.length(); sutun++) {
                     char cins = satir.charAt(sutun * 2);
@@ -49,9 +50,5 @@ public class MatrisOlusturma {
             }
             System.out.println();
         }
-
-
     }
-
-
 }

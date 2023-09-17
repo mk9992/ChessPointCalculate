@@ -1,1 +1,1 @@
-board1.txt    siyah:108.0    beyaz109.0
+board1.txt    siyah:135.0    beyaz134.5

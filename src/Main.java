@@ -11,7 +11,8 @@ public class Main {
 
     public static void main(String[] args) {
         HashSet<TehditAltindaOlanlar> tehditler = new HashSet<>();
-
+        String directoryPath = "."; // Mevcut çalışma dizini
+        TxtFileLister.listTxtFiles(directoryPath);
 
         char[][][] konum = MatrisOlusturma.doldur();
         MatrisOlusturma.yazdir(MatrisOlusturma.doldur());
