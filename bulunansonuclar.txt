@@ -1,0 +1,4 @@
+Tahta Dosya Adi        Sonuclar
+board1.txt        Siyah:135    Beyaz134.5
+board2.txt        Siyah:116    Beyaz123
+board3.txt        Siyah:108    Beyaz109

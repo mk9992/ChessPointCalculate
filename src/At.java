@@ -13,6 +13,7 @@ public class At extends AbstractTas {
     @Override
     public ArrayList<int[]> moves() {
         ArrayList<int[]> moves = new ArrayList<>() ;
+
         moves.add(new int[]{-2, 1});
         moves.add(new int[]{-2, -1});
         moves.add(new int[]{2, -1});

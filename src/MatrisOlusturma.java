@@ -5,11 +5,11 @@ import java.util.regex.Pattern;
 
 public class MatrisOlusturma {
 
-    public static char[][][] doldur() {
+    public static char[][][] doldur(String name) {
         char[][][] matris = new char[8][8][2]; // 8x8x2 matris oluştur
 
         try {
-            FileReader dosyaOkuyucu = new FileReader("board1.txt");
+            FileReader dosyaOkuyucu = new FileReader(name);
             BufferedReader bufferedReader = new BufferedReader(dosyaOkuyucu);
 
             int satirNo = 0;

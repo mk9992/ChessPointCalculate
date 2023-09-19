@@ -55,11 +55,11 @@ public class ToplamPuan {
         return puanlar;
     }
 
-    public static double[] sonuc(double[] puanlar) {
+    public static double[] sonuc(double[] puanlar, String name) {
         HashSet<TehditAltindaOlanlar> tehditler = new HashSet<>();
 
 
-        char[][][] konum = MatrisOlusturma.doldur();
+        char[][][] konum = MatrisOlusturma.doldur(name);
         // System.out.println(konum[5][2]);
         List<AbstractTas> taslar = TasBulma.tasBul(konum);
         for (AbstractTas tas : taslar) {
